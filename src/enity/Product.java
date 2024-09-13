@@ -65,5 +65,10 @@ public class Product {
     }
     public void displayData(){
         // Hiển thij thông tin
+        System.out.println("ID :"+this.id);
+        System.out.println("Name :"+this.name);
+        System.out.println("Price :"+this.price);
+        System.out.println("CategoryID :"+this.categoryId);
+        System.out.println("Status :"+this.status);
     }
 }

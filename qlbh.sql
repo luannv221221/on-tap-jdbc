@@ -14,3 +14,4 @@ create TABLE product(
     status bit(1) default 1,
     foreign key(category_id) references category(id)
 );
+INSERT INTO product(name,price,category_id,status) VALUE('Ao xin',100,1,1);
